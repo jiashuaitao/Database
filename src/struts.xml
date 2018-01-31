@@ -6,7 +6,7 @@
 <struts>
 	<constant name="struts.enable.DynamicMethodInvocation" value="true"></constant>
 
-   <package name="test" namespace="/" extends="struts-default">
+        <package name="test" namespace="/" extends="struts-default">
    		
     	<global-results>
     		<result name="index">/index.jsp</result>
